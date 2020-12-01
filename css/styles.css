@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "arial";
+    
+}
+html, body {
+    width: 100%;
+    background-color:darkslategrey;
+}
+
+
+
+.topBackground {
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-attachment: fixed;
+    background-image: url(../img/mig-nobg2.png);
+    background-color: #828282;
+    opacity: 80%;  
+}
+
+.container1 {
+    min-height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;   
+    
+}
+
+.ønsker p {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: arial black;
+    color:aliceblue;
+}
+.titel {
+    text-align: center;
+    padding: 30px;
+    color: cadetblue;
+    border-bottom: solid;
+    
+}
+
+.ønsker {
+    text-align: center;
+    padding: 30px 100px;
+    
+}
+
+.col {
+    border-style: solid;
+    border-color: cadetblue;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+
+
+
+.button {
+    width: 180px;
+    display: inline-block;
+    margin: 10px 10px;
+    text-align: center;
+    position: relative;
+    background-color: cadetblue;
+    text-decoration: none;
+    font-size: 25px;
+    border: 4px solid aliceblue;
+    width: 172px;
+    padding: 16px 0px;
+    color:aliceblue;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: aliceblue;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.footer {
+    position: relative;
+    margin-top: -100px;
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/footer.png);
+}
+
+@media screen and (max-width: 900px) {
+    .topBackground {
+        height: 45vh;
+    }
+}
+
+#skærebræt p {
+    padding: 8px 0px;
+    font-size: 20px;
+}
